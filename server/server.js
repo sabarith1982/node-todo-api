@@ -42,3 +42,5 @@ app.post('/Users',(req, res) => {
 app.listen(3000, ()=> {
   console.log("App started")
 });
+
+module.exports = {app};
